@@ -59,7 +59,6 @@ function matt_share_files_do_page() {
 				<p><label for="custom_keyword">Vlastní URL</label> <input type="text" id="custom_keyword" name="custom_keyword" /></p>
 				<p><input type="submit" value="Nahrát soubor" /></p>
 				</form>';
-	var_dump($_SERVER['HTTPS']);
 }
 // Update option in database
 function matt_share_files_save_files()
